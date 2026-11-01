@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "noxious",
+	"version": "${version}",
+	"name": "Noxious Depths",
+	"description": "Adding a bit more content to the Sulfur Caves.",
+	"authors": [
+		"AtmoraChad"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/noxious/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.atmorachad.noxious.NoxiousDepths"
+		],
+		"fabric-datagen": [
+			"net.atmorachad.noxious.NoxiousDepthsDataGenerator"
+		]
+	},
+	"mixins": [
+		"noxious.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
