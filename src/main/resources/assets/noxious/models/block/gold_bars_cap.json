@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/iron_bars_cap",
+  "textures": {
+    "edge": "noxious:block/gold_bars",
+    "bars": "noxious:block/gold_bars"
+  }
+}

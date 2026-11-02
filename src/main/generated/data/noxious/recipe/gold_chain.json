@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": "minecraft:gold_nugget",
+    "S": "minecraft:gold_ingot"
+  },
+  "pattern": [
+    "R",
+    "S",
+    "R"
+  ],
+  "result": {
+    "id": "noxious:gold_chain"
+  }
+}

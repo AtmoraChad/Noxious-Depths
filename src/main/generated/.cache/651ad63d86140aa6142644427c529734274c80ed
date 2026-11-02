@@ -1,0 +1,16 @@
+// 26.3	-999999999-01-01T00:00:00	Noxious Depths/Tags for minecraft:block
+75d9872b5e4b85796b94ddf9ac3c60825ab8a48a data/minecraft/tags/block/bars.json
+d06a8a8458b651cdc29db2979c9bd1efe9aa2920 data/minecraft/tags/block/blocks_dolphin_jump.json
+d06a8a8458b651cdc29db2979c9bd1efe9aa2920 data/minecraft/tags/block/blocks_fluid_flow.json
+d06a8a8458b651cdc29db2979c9bd1efe9aa2920 data/minecraft/tags/block/blocks_lava_fire_spread.json
+d06a8a8458b651cdc29db2979c9bd1efe9aa2920 data/minecraft/tags/block/blocks_motion.json
+d06a8a8458b651cdc29db2979c9bd1efe9aa2920 data/minecraft/tags/block/blocks_motion_in_heightmap.json
+d06a8a8458b651cdc29db2979c9bd1efe9aa2920 data/minecraft/tags/block/blocks_motion_in_heightmap_no_leaves.json
+d06a8a8458b651cdc29db2979c9bd1efe9aa2920 data/minecraft/tags/block/blocks_motion_no_leaves.json
+d06a8a8458b651cdc29db2979c9bd1efe9aa2920 data/minecraft/tags/block/causes_suffocation.json
+75d9872b5e4b85796b94ddf9ac3c60825ab8a48a data/minecraft/tags/block/chains.json
+75d9872b5e4b85796b94ddf9ac3c60825ab8a48a data/minecraft/tags/block/dragon_immune.json
+d06a8a8458b651cdc29db2979c9bd1efe9aa2920 data/minecraft/tags/block/entities_can_teleport_to.json
+d06a8a8458b651cdc29db2979c9bd1efe9aa2920 data/minecraft/tags/block/ice_melts_when_destroyed_above.json
+75d9872b5e4b85796b94ddf9ac3c60825ab8a48a data/minecraft/tags/block/mineable/hoe.json
+75d9872b5e4b85796b94ddf9ac3c60825ab8a48a data/minecraft/tags/block/speeds_up_zombie_villager_curing.json
