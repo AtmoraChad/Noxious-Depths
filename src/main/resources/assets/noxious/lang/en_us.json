@@ -5,5 +5,15 @@
   "item.noxious.gold_bars": "Gold Bars",
   "item.noxious.gold_chain": "Gold Chain",
 
+  "block.noxious.sulfur_torch": "Sulfur Torch",
+  "block.noxious.wall_sulfur_torch": "Sulfur Torch",
+  "item.noxious.sulfur_torch": "Sulfur Torch",
+
+  "block.noxious.sulfur_campfire": "Sulfur Campfire",
+  "item.noxious.sulfur_campfire": "Sulfur Campfire",
+
+  "block.noxious.sulfur_lantern": "Sulfur Lantern",
+  "item.noxious.sulfur_lantern": "Sulfur Lantern",
+
   "creativemodetab.noxious.depth_blocks": "Noxious Depths"
 }

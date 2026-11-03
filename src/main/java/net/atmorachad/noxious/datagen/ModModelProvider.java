@@ -29,6 +29,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createAxisAlignedPillarBlockCustomModel(ModBlocks.GOLD_CHAIN,
                 BlockModelGenerators.plainVariant(Identifier.fromNamespaceAndPath(MOD_ID, "block/gold_chain")));
 
+        blockModelGenerators.createNormalTorch(ModBlocks.SULFUR_TORCH, ModBlocks.WALL_SULFUR_TORCH);
+
+        blockModelGenerators.createLantern(ModBlocks.SULFUR_LANTERN);
     }
 
 
@@ -37,6 +40,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerators.generateFlatItem(ModItems.GOLD_BARS, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.GOLD_CHAIN, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.SULFUR_CAMPFIRE, ModelTemplates.FLAT_ITEM);
 
     }
 }

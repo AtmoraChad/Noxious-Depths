@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "L": "#minecraft:logs",
+    "P": "#noxious:sulfur_fire_base_blocks",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    " S ",
+    "SPS",
+    "LLL"
+  ],
+  "result": {
+    "id": "noxious:sulfur_campfire"
+  }
+}

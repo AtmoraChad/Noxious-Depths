@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "noxious:block/sulfur_lantern"
+    },
+    "hanging=true": {
+      "model": "noxious:block/sulfur_lantern_hanging"
+    }
+  }
+}

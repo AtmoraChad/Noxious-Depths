@@ -1,5 +1,7 @@
-// 26.3	-999999999-01-01T00:00:00	Noxious Depths/Overworld Revisited Recipes
+// 26.3	-999999999-01-01T00:00:00	Noxious Depths/Noxious DepthsRecipes
 d3f71ae8e751aa2fbd415687fad87ffc946cda1c data/noxious/advancement/recipes/building_blocks/gold_bars.json
 9450c187da30edfff9d4a0aa522ba7112ad54bfc data/noxious/advancement/recipes/building_blocks/gold_chain.json
+778845948b3998bc09ef46bb3f836e4f6d9394ad data/noxious/advancement/recipes/building_blocks/sulfur_campfire.json
 81dcfd342d4a53f9f58e5d4c583d22739ce2aa4e data/noxious/recipe/gold_bars.json
 df0b2f86840c3a445ca322985c15a76ce87e6024 data/noxious/recipe/gold_chain.json
+6475c7db857c22c1e4fbeae2592b885498d71edb data/noxious/recipe/sulfur_campfire.json
