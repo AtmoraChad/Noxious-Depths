@@ -15,5 +15,9 @@
   "block.noxious.sulfur_lantern": "Sulfur Lantern",
   "item.noxious.sulfur_lantern": "Sulfur Lantern",
 
+  "block.noxious.enriched_farmland": "Enriched Farmland",
+  "item.noxious.sulfur_chunk": "Sulfur Chunk",
+  "item.noxious.cinnabar_chunk": "Cinnabar Chunk",
+
   "creativemodetab.noxious.depth_blocks": "Noxious Depths"
 }

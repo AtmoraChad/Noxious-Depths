@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "noxious:block/enriched_farmland"
+    }
+  }
+}

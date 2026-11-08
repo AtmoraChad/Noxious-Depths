@@ -1,6 +1,7 @@
 package net.atmorachad.noxious.block;
 
 import net.atmorachad.noxious.NoxiousDepths;
+import net.atmorachad.noxious.block.blocks.EnrichedFarmlandBlock;
 import net.atmorachad.noxious.block.blocks.SulfurFireBlock;
 import net.atmorachad.noxious.particle.ModParticles;
 import net.minecraft.core.Registry;
@@ -47,6 +48,10 @@ public class ModBlocks {
 
     public static final Block SULFUR_LANTERN = registerBlockWithoutItem("sulfur_lantern",
             properties -> new LanternBlock(properties.mapColor(MapColor.METAL).forceSolidOn().strength(3.5F).sound(SoundType.LANTERN).lightLevel(state -> 15).noOcclusion().pushReaction(PushReaction.POPPED)));
+
+    public static final Block ENRICHED_FARMLAND = registerBlock("enriched_farmland",
+            properties -> new EnrichedFarmlandBlock(Blocks.DIRT, properties.mapColor(MapColor.DIRT).mapColor(MapColor.DIRT).randomTicks().strength(0.6F).sound(SoundType.GRAVEL).isSuffocating(Blocks::always)));
+
 
     public static ResourceKey<Block> getRK(Block block) {
         return BuiltInRegistries.BLOCK.getResourceKey(block).get();

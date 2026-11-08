@@ -34,9 +34,11 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.getRK(ModBlocks.GOLD_CHAIN))
                 .add(ModBlocks.getRK(ModBlocks.SULFUR_LANTERN));
 
-        tag(BlockTags.MINEABLE_WITH_PICKAXE)
+        tag(BlockTags.MINEABLE_WITH_AXE)
                 .add(ModBlocks.getRK(ModBlocks.SULFUR_CAMPFIRE));
 
+        tag(BlockTags.MINEABLE_WITH_SHOVEL)
+                .add(ModBlocks.getRK(ModBlocks.ENRICHED_FARMLAND));
 
         tag(ModTags.Blocks.SULFUR_FIRE_BASE_BLOCKS)
                 .add(ModBlocks.getRK(Blocks.SULFUR))
@@ -118,6 +120,40 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 BlockTags.BLOCKS_FLUID_FLOW,
                 BlockTags.BLOCKS_MOTION_IN_HEIGHTMAP,
                 BlockTags.CAUSES_SUFFOCATION
+        );
+
+        addToTags(
+                ModBlocks.getRK(ModBlocks.ENRICHED_FARMLAND),
+                BlockTags.SUPPORTS_AZALEA,
+                BlockTags.BLOCKS_MOTION_IN_HEIGHTMAP_NO_LEAVES,
+                BlockTags.SUPPORTS_WARPED_FUNGUS,
+                BlockTags.SUPPORT_OVERRIDE_CACTUS_FLOWER,
+                BlockTags.BLOCKS_MOTION,
+                BlockTags.SUPPORTS_MANGROVE_PROPAGULE,
+                BlockTags.SUPPORTS_BIG_DRIPLEAF,
+                BlockTags.BLOCKS_FLUID_FLOW,
+                BlockTags.SUPPORTS_NETHER_SPROUTS,
+                BlockTags.SUPPORTS_CROPS,
+                BlockTags.SUPPORTS_PUMPKIN_STEM,
+                BlockTags.CAUSES_SUFFOCATION,
+                BlockTags.SUPPORTS_DRY_VEGETATION,
+                BlockTags.SUPPORTS_CRIMSON_ROOTS,
+                BlockTags.BLOCKS_MOTION_NO_LEAVES,
+                BlockTags.SUPPORTS_MELON_STEM,
+                BlockTags.SUPPORTS_CRIMSON_FUNGUS,
+                BlockTags.ENTITIES_CAN_TELEPORT_TO,
+                BlockTags.SUPPORTS_STEM_FRUIT,
+                BlockTags.ICE_MELTS_WHEN_DESTROYED_ABOVE,
+                BlockTags.BLOCKS_MOTION_IN_HEIGHTMAP,
+                BlockTags.SUPPORTS_STEM_CROPS,
+                BlockTags.SUPPORTS_PUMPKIN_STEM_FRUIT,
+                BlockTags.SUPPORTS_VEGETATION,
+                BlockTags.GROWS_CROPS,
+                BlockTags.SUPPORTS_MELON_STEM_FRUIT,
+                BlockTags.SUPPORTS_WITHER_ROSE,
+                BlockTags.BLOCKS_LAVA_FIRE_SPREAD,
+                BlockTags.BLOCKS_DOLPHIN_JUMP,
+                BlockTags.SUPPORTS_WARPED_ROOTS
         );
     }
 }

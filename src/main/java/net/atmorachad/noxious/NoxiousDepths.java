@@ -5,12 +5,11 @@ import net.atmorachad.noxious.block.ModBlocks;
 import net.atmorachad.noxious.creativetab.ModCreativeTabs;
 import net.atmorachad.noxious.item.ModItems;
 import net.atmorachad.noxious.particle.ModParticles;
+import net.atmorachad.noxious.potion.ModPotions;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.client.particle.v1.ParticleProviderRegistry;
-import net.minecraft.client.particle.FallingLeavesParticle;
 import net.minecraft.client.particle.FlameParticle;
-import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.resources.Identifier;
 
 import org.slf4j.Logger;
@@ -28,6 +27,7 @@ public class NoxiousDepths implements ModInitializer {
 		ModItems.registerModItems();
 		ModCreativeTabs.registerModCreativeModeTabs();
 		ModParticles.registerModParticles();
+		ModPotions.registerPotions();
 
 		ParticleProviderRegistry.getInstance().register(
 				ModParticles.SULFUR_FLAME, FlameParticle.Provider::new

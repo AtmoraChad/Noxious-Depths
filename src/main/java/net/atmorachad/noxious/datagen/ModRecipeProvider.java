@@ -1,6 +1,7 @@
 package net.atmorachad.noxious.datagen;
 
 import net.atmorachad.noxious.block.ModBlocks;
+import net.atmorachad.noxious.item.ModItems;
 import net.atmorachad.noxious.tag.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
@@ -60,6 +61,30 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(Blocks.SULFUR), has(Items.SULFUR))
                         .unlockedBy(getHasName(Blocks.POTENT_SULFUR), has(Blocks.POTENT_SULFUR))
                         .save(output);
+
+                shaped(RecipeCategory.BUILDING_BLOCKS, Blocks.SULFUR, 1)
+                        .pattern("SSS")
+                        .pattern("SSS")
+                        .pattern("SSS")
+                        .define('S', ModItems.SULFUR)
+                        .unlockedBy(getHasName(Blocks.SULFUR), has(Items.SULFUR))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModItems.SULFUR, 9)
+                        .unlockedBy(getHasName(Blocks.SULFUR), has(Blocks.SULFUR)).requires(Blocks.SULFUR).save(output);
+
+                shaped(RecipeCategory.BUILDING_BLOCKS, Blocks.CINNABAR, 1)
+                        .pattern("CCC")
+                        .pattern("CCC")
+                        .pattern("CCC")
+                        .define('C', ModItems.CINNABAR)
+                        .unlockedBy(getHasName(Blocks.CINNABAR), has(ModItems.CINNABAR))
+                        .save(output);
+
+
+                shapeless(RecipeCategory.MISC, ModItems.CINNABAR, 9)
+                        .unlockedBy(getHasName(Blocks.CINNABAR), has(Blocks.CINNABAR)).requires(Blocks.CINNABAR).save(output);
+
             }
         };
     }

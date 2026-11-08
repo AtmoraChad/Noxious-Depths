@@ -20,11 +20,14 @@ public class ModCreativeTabs {
                     .title(Component.translatable("creativemodetab.noxious.depth_blocks"))
                     .displayItems((parameters, output) -> {
 
-                        output.accept(ModBlocks.GOLD_BARS);
-                        output.accept(ModBlocks.GOLD_CHAIN);
+                        output.accept(ModItems.SULFUR);
+                        output.accept(ModItems.CINNABAR);
                         output.accept(ModItems.SULFUR_TORCH);
                         output.accept(ModItems.SULFUR_CAMPFIRE);
                         output.accept(ModItems.SULFUR_LANTERN);
+                        output.accept(ModBlocks.GOLD_BARS);
+                        output.accept(ModBlocks.GOLD_CHAIN);
+                        output.accept(ModBlocks.ENRICHED_FARMLAND);
 
                     }).build());
 

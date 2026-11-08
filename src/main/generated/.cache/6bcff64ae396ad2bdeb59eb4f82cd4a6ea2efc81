@@ -1,7 +1,15 @@
 // 26.3	-999999999-01-01T00:00:00	Noxious Depths/Noxious DepthsRecipes
+63cc3f8fd09029d199f2c9ed77256871c665a28f data/noxious/advancement/recipes/building_blocks/cinnabar.json
 d3f71ae8e751aa2fbd415687fad87ffc946cda1c data/noxious/advancement/recipes/building_blocks/gold_bars.json
 9450c187da30edfff9d4a0aa522ba7112ad54bfc data/noxious/advancement/recipes/building_blocks/gold_chain.json
+80749b5fb211484c700d9a823bfb5c5b34e9fb0f data/noxious/advancement/recipes/building_blocks/sulfur.json
 778845948b3998bc09ef46bb3f836e4f6d9394ad data/noxious/advancement/recipes/building_blocks/sulfur_campfire.json
+2d082c208a9d466124d641bbfbf9b630d40d1594 data/noxious/advancement/recipes/misc/cinnabar_chunk.json
+f39e0ee0ecf8698ee195bbe62d9018e8df5f2f73 data/noxious/advancement/recipes/misc/sulfur_chunk.json
+38b330de7175b870b2108cf9116ebae62fb1b7f5 data/noxious/recipe/cinnabar.json
+b58f8889a95d475f9434c439d0a89d02b3ab3f96 data/noxious/recipe/cinnabar_chunk.json
 81dcfd342d4a53f9f58e5d4c583d22739ce2aa4e data/noxious/recipe/gold_bars.json
 df0b2f86840c3a445ca322985c15a76ce87e6024 data/noxious/recipe/gold_chain.json
+9a31b9008f529833b1463ec945f79110806080f3 data/noxious/recipe/sulfur.json
 6475c7db857c22c1e4fbeae2592b885498d71edb data/noxious/recipe/sulfur_campfire.json
+683716f556e8cfc3788f095a28018c3d9cf2718a data/noxious/recipe/sulfur_chunk.json
