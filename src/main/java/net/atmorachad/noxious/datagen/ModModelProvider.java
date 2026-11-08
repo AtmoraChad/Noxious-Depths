@@ -43,6 +43,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerators.generateFlatItem(ModItems.SULFUR_CAMPFIRE, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.SULFUR, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.CINNABAR, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.CINNABAR_SPIDER_SPAWN_EGG, ModelTemplates.FLAT_ITEM);
 
     }
 }

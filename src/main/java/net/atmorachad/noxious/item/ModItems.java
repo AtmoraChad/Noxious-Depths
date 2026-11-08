@@ -2,6 +2,7 @@ package net.atmorachad.noxious.item;
 
 import net.atmorachad.noxious.NoxiousDepths;
 import net.atmorachad.noxious.block.ModBlocks;
+import net.atmorachad.noxious.entity.ModEntities;
 import net.atmorachad.noxious.item.items.SulfurItem;
 import net.minecraft.core.Direction;
 import net.minecraft.core.Registry;
@@ -36,6 +37,7 @@ public class ModItems {
 
     public static final Item CINNABAR = registerItem("cinnabar_chunk", properties -> new Item(properties.useItemDescriptionPrefix()));
 
+    public static final Item CINNABAR_SPIDER_SPAWN_EGG = registerSpawnEgg("cinnabar_spider_spawn_egg", ModEntities.CINNABAR_SPIDER);
 
     public static ResourceKey<Item> getRK(Item item) {return BuiltInRegistries.ITEM.getResourceKey(item).get();}
 

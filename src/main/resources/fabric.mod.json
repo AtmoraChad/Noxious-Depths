@@ -18,7 +18,9 @@
 		"main": [
 			"net.atmorachad.noxious.NoxiousDepths"
 		],
-		"fabric-datagen": [
+		"client": [
+			"net.atmorachad.noxious.NoxiousDepthsClient"
+		],		"fabric-datagen": [
 			"net.atmorachad.noxious.NoxiousDepthsDataGenerator"
 		]
 	},

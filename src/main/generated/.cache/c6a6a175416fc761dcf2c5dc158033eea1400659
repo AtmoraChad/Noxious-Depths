@@ -5,6 +5,7 @@
 5d415d4e2add785668f4459351ddd7922c13fcf3 assets/noxious/blockstates/sulfur_torch.json
 773333c935c1ba1166bd0c3b2a2f2ee8402effe1 assets/noxious/blockstates/wall_sulfur_torch.json
 fbbee73f8a47c48576c7af902c29c1b3c37d3dde assets/noxious/items/cinnabar_chunk.json
+457f93bf58189e48b820b91624e2f3a089565067 assets/noxious/items/cinnabar_spider_spawn_egg.json
 fd54464fc7f433581ea9a727a092c847522cfa23 assets/noxious/items/gold_bars.json
 ea72fa3ff6cd32c7cb34e5a041a43a93a7e48cb0 assets/noxious/items/gold_chain.json
 8aacbcc61d9ab3f10654f18ad6576f8f4e994018 assets/noxious/items/sulfur_campfire.json
@@ -16,6 +17,7 @@ ea72fa3ff6cd32c7cb34e5a041a43a93a7e48cb0 assets/noxious/items/gold_chain.json
 512d63a85db1cee9ae48d081f7d07275106b1193 assets/noxious/models/block/sulfur_torch.json
 f4d2106dfd40fb48bf4db14791a5e86873a6c09d assets/noxious/models/block/wall_sulfur_torch.json
 e37cc8635359529eeb193e94b7edfdf85093986e assets/noxious/models/item/cinnabar_chunk.json
+f67518770344d5e86c19d9073bd56aa74dab5da4 assets/noxious/models/item/cinnabar_spider_spawn_egg.json
 0abc050e8bb49e8be4da6a9af474ad2858c66cf1 assets/noxious/models/item/gold_bars.json
 84e02e1cccbe664ac14a63243f2fe8741f5c8dda assets/noxious/models/item/gold_chain.json
 c2d3512224e8491ec40cd7bad984058dc68d9d25 assets/noxious/models/item/sulfur_campfire.json

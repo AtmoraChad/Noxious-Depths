@@ -27,5 +27,12 @@
   "item.minecraft.splash_potion.effect.blindness_potion": "Splash Potion of Blindness",
   "item.minecraft.lingering_potion.effect.blindness_potion": "Lingering Potion of Blindness",
 
-  "creativemodetab.noxious.depth_blocks": "Noxious Depths"
+  "entity.noxious.cinnabar_spider": "Cinnabar Spider",
+  "entity.noxious.brimstone_witch": "Brimstone Witch",
+
+  "item.noxious.cinnabar_spider_spawn_egg": "Cinnabar Spider Spawn Egg",
+  "item.noxious.brimstone_witch_spawn_egg": "Brimstone Witch Spawn Egg",
+
+  "creativemodetab.noxious.depth_blocks": "Noxious Depths",
+  "tag.item.noxious.sulfur_fire_base_blocks": "Sulfur Fire Base Blocks"
 }

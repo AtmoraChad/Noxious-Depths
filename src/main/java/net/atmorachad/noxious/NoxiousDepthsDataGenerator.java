@@ -15,6 +15,7 @@ public class NoxiousDepthsDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModItemTagsProvider::new);
 		pack.addProvider(ModBlockLootTableProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
+		pack.addProvider(ModEntityLootTableProvider::new);
 
 	}
 }
