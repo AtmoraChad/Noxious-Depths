@@ -5,7 +5,8 @@
   "mixins": [
     "BaseFireBlockMixin",
     "CropBlockMixin",
-    "ExampleMixin"
+    "ExampleMixin",
+    "MobEffectsMixin"
   ],
   "injectors": {
     "defaultRequire": 1

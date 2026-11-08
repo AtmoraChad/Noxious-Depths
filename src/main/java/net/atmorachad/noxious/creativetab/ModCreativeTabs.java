@@ -3,6 +3,7 @@ package net.atmorachad.noxious.creativetab;
 import net.atmorachad.noxious.NoxiousDepths;
 import net.atmorachad.noxious.block.ModBlocks;
 import net.atmorachad.noxious.item.ModItems;
+import net.atmorachad.noxious.potion.ModPotions;
 import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;

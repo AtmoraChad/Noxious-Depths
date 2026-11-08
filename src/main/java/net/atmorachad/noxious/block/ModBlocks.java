@@ -79,17 +79,10 @@ public class ModBlocks {
         return Registry.register(BuiltInRegistries.BLOCK, Identifier.fromNamespaceAndPath(NoxiousDepths.MOD_ID, name), toRegister);
     }
 
-    private static BlockBehaviour.Properties wallVariant(
-            BlockBehaviour.Properties wallProperties,
-            final Block standingBlock,
-            final boolean copyName
-    ) {
+    private static BlockBehaviour.Properties wallVariant(BlockBehaviour.Properties wallProperties, final Block standingBlock, final boolean copyName) {
         wallProperties = wallProperties.overrideLootTable(standingBlock.getLootTable());
-
-        if (copyName) {
-            wallProperties = wallProperties.overrideDescription(standingBlock.getDescriptionId());
-        }
-        return wallProperties;
+        if (copyName) {wallProperties = wallProperties.overrideDescription(standingBlock.getDescriptionId());
+        } return wallProperties;
     }
 
     public static void registerModBlocks() {

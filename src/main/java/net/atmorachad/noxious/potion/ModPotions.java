@@ -12,7 +12,10 @@ import net.minecraft.world.item.alchemy.Potion;
 public class ModPotions {
 
     public static final Holder<Potion> NAUSEA_POTION = registerPotion("nausea_potion",
-            new Potion("nausea_potion", new MobEffectInstance(MobEffects.NAUSEA, 25, 0)));
+            new Potion("nausea_potion", new MobEffectInstance(MobEffects.NAUSEA, 1200, 0)));
+
+    public static final Holder<Potion> BLINDNESS_POTION = registerPotion("blindness_potion",
+            new Potion("blindness_potion", new MobEffectInstance(MobEffects.BLINDNESS, 1200, 0)));
 
     private static Holder<Potion> registerPotion(String name, Potion potion) {
         return Registry.registerForHolder(BuiltInRegistries.POTION, Identifier.fromNamespaceAndPath(NoxiousDepths.MOD_ID, name), potion);

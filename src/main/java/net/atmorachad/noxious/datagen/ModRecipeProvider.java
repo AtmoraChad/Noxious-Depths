@@ -1,22 +1,42 @@
 package net.atmorachad.noxious.datagen;
 
+import net.atmorachad.noxious.NoxiousDepths;
 import net.atmorachad.noxious.block.ModBlocks;
 import net.atmorachad.noxious.item.ModItems;
+import net.atmorachad.noxious.potion.ModPotions;
 import net.atmorachad.noxious.tag.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.advancements.Advancement;
+import net.minecraft.core.Holder;
 import net.minecraft.core.HolderLookup;
+import net.minecraft.core.component.DataComponentPatch;
+import net.minecraft.core.component.DataComponents;
+import net.minecraft.core.component.predicates.PotionsPredicate;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.data.recipes.BrewingRecipeBuilder;
 import net.minecraft.data.recipes.RecipeCategory;
+import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.data.worldgen.BootstrapContext;
+import net.minecraft.resources.Identifier;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStackTemplate;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.alchemy.Potion;
+import net.minecraft.world.item.alchemy.PotionContents;
+import net.minecraft.world.item.alchemy.Potions;
+import net.minecraft.world.item.crafting.BrewingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.crafting.PotionIngredient;
 import net.minecraft.world.item.crafting.Recipe;
 import net.minecraft.world.level.block.Blocks;
 
+import java.util.List;
+import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
@@ -81,10 +101,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(Blocks.CINNABAR), has(ModItems.CINNABAR))
                         .save(output);
 
-
                 shapeless(RecipeCategory.MISC, ModItems.CINNABAR, 9)
                         .unlockedBy(getHasName(Blocks.CINNABAR), has(Blocks.CINNABAR)).requires(Blocks.CINNABAR).save(output);
 
+                for(Item potion : List.of(Items.POTION, Items.SPLASH_POTION, Items.LINGERING_POTION)) {
+                   BrewingRecipeBuilder.brewingMix(potion, Potions.POISON, ModItems.SULFUR, ModPotions.NAUSEA_POTION)
+                         .save(output, NoxiousDepths.MOD_ID + ":brewing/" + getItemName(potion) + "_nausea_potion");
+                }
+
+                for(Item potion : List.of(Items.POTION, Items.SPLASH_POTION, Items.LINGERING_POTION)) {
+                    BrewingRecipeBuilder.brewingMix(potion, Potions.NIGHT_VISION, ModItems.CINNABAR, ModPotions.BLINDNESS_POTION)
+                            .save(output, NoxiousDepths.MOD_ID + ":brewing/" + getItemName(potion) + "_blindnessa_potion");
+                }
             }
         };
     }

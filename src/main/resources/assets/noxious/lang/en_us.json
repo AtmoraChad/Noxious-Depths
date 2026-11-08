@@ -19,5 +19,13 @@
   "item.noxious.sulfur_chunk": "Sulfur Chunk",
   "item.noxious.cinnabar_chunk": "Cinnabar Chunk",
 
+  "item.minecraft.potion.effect.nausea_potion": "Potion of Nausea",
+  "item.minecraft.splash_potion.effect.nausea_potion": "Splash Potion of Nausea",
+  "item.minecraft.lingering_potion.effect.nausea_potion": "Lingering Potion of Nausea",
+
+  "item.minecraft.potion.effect.blindness_potion": "Potion of Blindness",
+  "item.minecraft.splash_potion.effect.blindness_potion": "Splash Potion of Blindness",
+  "item.minecraft.lingering_potion.effect.blindness_potion": "Lingering Potion of Blindness",
+
   "creativemodetab.noxious.depth_blocks": "Noxious Depths"
 }
