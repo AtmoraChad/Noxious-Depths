@@ -39,6 +39,8 @@ public class ModItems {
 
     public static final Item CINNABAR_SPIDER_SPAWN_EGG = registerSpawnEgg("cinnabar_spider_spawn_egg", ModEntities.CINNABAR_SPIDER);
 
+    public static final Item BRIMSTONE_WITCH_SPAWN_EGG = registerSpawnEgg("brimstone_witch_spawn_egg", ModEntities.BRIMSTONE_WITCH);
+
     public static ResourceKey<Item> getRK(Item item) {return BuiltInRegistries.ITEM.getResourceKey(item).get();}
 
     private static Item registerItem(String name, Function<Item.Properties, Item> function) {

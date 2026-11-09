@@ -4,7 +4,7 @@ import net.atmorachad.noxious.block.ModBlockEntities;
 import net.atmorachad.noxious.block.ModBlocks;
 import net.atmorachad.noxious.creativetab.ModCreativeTabs;
 import net.atmorachad.noxious.entity.ModEntities;
-import net.atmorachad.noxious.entity.client.CinnabarSpiderRenderer;
+import net.atmorachad.noxious.entity.custom.BrimstoneWitchEntity;
 import net.atmorachad.noxious.entity.custom.CinnabarSpiderEntity;
 import net.atmorachad.noxious.item.ModItems;
 import net.atmorachad.noxious.particle.ModParticles;
@@ -14,7 +14,6 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.particle.v1.ParticleProviderRegistry;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.minecraft.client.particle.FlameParticle;
-import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.resources.Identifier;
 
 import net.minecraft.world.entity.SpawnPlacementTypes;
@@ -43,9 +42,13 @@ public class NoxiousDepths implements ModInitializer {
 		);
 
 		FabricDefaultAttributeRegistry.register(ModEntities.CINNABAR_SPIDER, CinnabarSpiderEntity.createAttributes());
+		FabricDefaultAttributeRegistry.register(ModEntities.BRIMSTONE_WITCH, BrimstoneWitchEntity.createAttributes());
 
 		SpawnPlacements.register(ModEntities.CINNABAR_SPIDER, SpawnPlacementTypes.ON_GROUND,
 				Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, CinnabarSpiderEntity::checkAnyLightMonsterSpawnRules);
+
+		SpawnPlacements.register(ModEntities.BRIMSTONE_WITCH, SpawnPlacementTypes.ON_GROUND,
+				Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, BrimstoneWitchEntity::checkMonsterSpawnRules);
 	}
 
 	public static Identifier id(String path) {

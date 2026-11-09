@@ -24,6 +24,7 @@ public class ModCreativeTabs {
                         output.accept(ModItems.SULFUR);
                         output.accept(ModItems.CINNABAR);
                         output.accept(ModItems.CINNABAR_SPIDER_SPAWN_EGG);
+                        output.accept(ModItems.BRIMSTONE_WITCH_SPAWN_EGG);
                         output.accept(ModItems.SULFUR_TORCH);
                         output.accept(ModItems.SULFUR_CAMPFIRE);
                         output.accept(ModItems.SULFUR_LANTERN);

@@ -1,4 +1,4 @@
-package net.atmorachad.noxious.entity.client;
+package net.atmorachad.noxious.entity.client.cinnabar_spider;
 
 import net.minecraft.client.model.monster.spider.SpiderModel;
 import net.minecraft.client.renderer.entity.RenderLayerParent;
